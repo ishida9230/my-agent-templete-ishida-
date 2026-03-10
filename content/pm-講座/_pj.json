@@ -1,0 +1,9 @@
+{
+  "name": "PM講座",
+  "description": "PMスキル習得のための外部講座。課題・提出物・フィードバックを管理する。",
+  "phase": "受講中",
+  "role": "受講者",
+  "joinDate": "2026-03-08",
+  "status": "active",
+  "color": "#6366f1"
+}
