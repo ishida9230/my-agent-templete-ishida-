@@ -1,0 +1,9 @@
+{
+  "name": "プロジェクト1",
+  "description": "プロジェクトの概要説明をここに記入してください。",
+  "phase": "進行中",
+  "role": "PM",
+  "joinDate": "2026-01-01",
+  "status": "active",
+  "color": "#6366f1"
+}

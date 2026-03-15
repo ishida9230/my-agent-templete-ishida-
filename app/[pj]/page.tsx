@@ -14,7 +14,7 @@ export default async function PJTopPage({
 
   const firstSlug = getFirstPageSlug(pjId);
   if (firstSlug) {
-    redirect(`/${firstSlug.join("/")}`);
+    redirect(`/${firstSlug.map(encodeURIComponent).join("/")}`);
   }
 
   return (

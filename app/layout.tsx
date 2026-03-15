@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 // サーバーアクション: ログイン
 async function loginAction(password: string) {
   "use server";
-  const PASSWORD = "9230";
+  const PASSWORD = process.env.PASSWORD;
   
   if (password !== PASSWORD) {
     return { success: false, error: "パスワードが正しくありません" };
